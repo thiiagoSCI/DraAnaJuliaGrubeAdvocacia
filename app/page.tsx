@@ -86,7 +86,7 @@ export default function Home() {
               texto: "Escuta qualificada e abordagem personalizada, respeitando a realidade de cada cliente."
             },
             {
-              titulo: "Suporte a Famílias",
+              titulo: "Suporte à Família",
               texto: "Orientação jurídica e acompanhamento para famílias de pessoas privadas de liberdade, com discrição e responsabilidade."
             },
             {
@@ -136,7 +136,7 @@ export default function Home() {
             textDecoration: "none",
             fontSize: "14px"
           }}>
-            Fale com um advogado agora
+            Fale com a advogada agora.
           </Link>
         </div>
 

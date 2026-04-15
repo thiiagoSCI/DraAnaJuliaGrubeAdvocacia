@@ -63,7 +63,7 @@ export default function Sobre() {
           Atualmente integra, como bolsista de Iniciação Científica, o Laboratório de Pesquisa Crítica em Regulação e Tecnologia (LabSensus) e integrou o Laboratório de Ciências Criminais (IBCCRIM).
           Ao longo de sua formação acadêmica, atuou como estagiária no Presídio Feminino de Florianópolis e concluiu o estágio obrigatório supervisionado em Direito Penal.
           Também atuou como extensionista no projeto de extensão Inovacrim. Foi monitora das disciplinas de Ciência Política e Teoria do Estado e de Mediação, Conciliação e Negociação.
-          È fluente em espanhol pela Expanish School em Buenos Aires. Recebeu bolsa de melhor desempenho acadêmico no Centro Universitário Unicesusc nos anos de 2024 e 2025 e, em 2025,
+          É fluente em espanhol pela Expanish School em Buenos Aires. Recebeu bolsa de melhor desempenho acadêmico no Centro Universitário Unicesusc nos anos de 2024 e 2025 e, em 2025,
           também foi agraciada com o Prêmio Jurista Dora Lucia de Lima Faye.
         </p>
 

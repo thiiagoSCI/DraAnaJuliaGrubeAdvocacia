@@ -84,7 +84,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div>
               <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>Contato</h4>
               <p style={{ fontSize: "14px", marginBottom: "10px" }}>+55 (48) 99141-0409</p>
-              <p style={{ fontSize: "14px" }}>grubeanajulia@gmail.com</p>
+              <p style={{ fontSize: "14px" }}>advanajulia@gmail.com</p>
             </div>
 
             {/* REDES SOCIAIS */}
