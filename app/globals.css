@@ -24,16 +24,12 @@ body {
   color: white;
   text-decoration: none;
   position: relative;
-  /* 🔥 ESSENCIAL */
   display: inline-block;
-  /* 🔥 garante alinhamento correto */
-
   text-transform: uppercase;
   letter-spacing: 1.8px;
   font-size: 18px;
   font-weight: 500;
   white-space: nowrap;
-
   transition: color 0.3s ease;
 }
 
@@ -45,17 +41,11 @@ body {
 .menu-link::after {
   content: "";
   position: absolute;
-
   left: 0;
   bottom: -4px;
-  /* 🔥 controla a distância da linha */
-
   width: 0%;
   height: 2px;
-  /* um pouco mais grossa = mais elegante */
-
   background-color: #c5b99e;
-
   transition: width 0.3s ease;
 }
 
@@ -72,20 +62,15 @@ body {
   font-size: 32px;
   line-height: 1;
   cursor: pointer;
-
-  /* Área de toque grande */
   width: 52px;
   height: 52px;
   align-items: center;
   justify-content: center;
-
-  /* Crítico para Android */
+  /* para Android */
   touch-action: manipulation;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1);
   user-select: none;
   -webkit-user-select: none;
-
-  /* Garante que nada fique na frente */
   position: relative;
   z-index: 10001;
   pointer-events: all;

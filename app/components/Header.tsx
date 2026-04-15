@@ -51,7 +51,7 @@ export default function Header() {
           />
         </Link>
 
-        {/* BOTÃO HAMBÚRGUER — div no lugar de button */}
+        {/* BOTÃO HAMBÚRGUER */}
         <button
           aria-label="Abrir menu"
           aria-expanded={menuOpen}
@@ -69,7 +69,7 @@ export default function Header() {
           className={`menu ${menuOpen ? "open" : ""}`}
           style={{ fontFamily: playfair.style.fontFamily }}
         >
-          {/* Botão fechar dentro do menu */}
+          {/* Botão fechar dentro do menu - teste*/}
           <div
             role="button"
             tabIndex={0}

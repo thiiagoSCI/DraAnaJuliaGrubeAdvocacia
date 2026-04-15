@@ -74,9 +74,9 @@ export default function Sobre() {
         {/* FORMAÇÃO */}
         <h2 style={{
           color: "#490b23",
-          fontSize: "26px",     // tamanho do título
-          marginTop: "40px",    // espaço acima
-          marginBottom: "10px", // espaço abaixo
+          fontSize: "26px",     
+          marginTop: "40px",    
+          marginBottom: "10px", 
         }}>
           Formação Acadêmica
         </h2>
@@ -90,9 +90,9 @@ export default function Sobre() {
         {/* COMPLEMENTAR */}
         <h2 style={{
           color: "#490b23",
-          fontSize: "26px",     // tamanho do título
-          marginTop: "40px",    // espaço acima
-          marginBottom: "10px", // espaço abaixo
+          fontSize: "26px",     
+          marginTop: "40px",   
+          marginBottom: "10px", 
         }}>
           Formação Complementar
         </h2>
@@ -106,9 +106,9 @@ export default function Sobre() {
         {/* EXPERIÊNCIA */}
         <h2 style={{
           color: "#490b23",
-          fontSize: "26px",     // tamanho do título
-          marginTop: "40px",    // espaço acima
-          marginBottom: "10px", // espaço abaixo
+          fontSize: "26px",
+          marginTop: "40px",
+          marginBottom: "10px",
         }}>
           Experiência Profissional
         </h2>
@@ -122,9 +122,9 @@ export default function Sobre() {
         {/* PRÊMIOS */}
         <h2 style={{
           color: "#490b23",
-          fontSize: "26px",     // tamanho do título
-          marginTop: "40px",    // espaço acima
-          marginBottom: "10px", // espaço abaixo
+          fontSize: "26px",
+          marginTop: "40px",
+          marginBottom: "10px",
         }}>
           Prêmios e Reconhecimentos
         </h2>
