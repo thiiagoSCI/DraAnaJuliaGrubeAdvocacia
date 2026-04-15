@@ -1,26 +1,217 @@
 @import "tailwindcss";
 
+/* ================= ROOT ================= */
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================= MENU LINKS ================= */
+
+.menu-link {
+  color: white;
+  text-decoration: none;
+  position: relative; /* 🔥 ESSENCIAL */
+  display: inline-block; /* 🔥 garante alinhamento correto */
+
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  font-size: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+
+  transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+  color: #c5b99e;
+}
+
+/* LINHA ANIMADA */
+.menu-link::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: -4px; /* 🔥 controla a distância da linha */
+
+  width: 0%;
+  height: 2px; /* um pouco mais grossa = mais elegante */
+
+  background-color: #c5b99e;
+
+  transition: width 0.3s ease;
+}
+
+/* ANIMAÇÃO */
+.menu-link:hover::after {
+  width: 100%;
+}
+
+/* ================= BOTÃO HAMBÚRGUER ================= */
+
+.menu-mobile-btn {
+  display: none;
+  color: white;
+  font-size: 32px;
+  line-height: 1;
+  cursor: pointer;
+
+  /* Área de toque grande */
+  width: 52px;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+
+  /* Crítico para Android */
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+
+  /* Garante que nada fique na frente */
+  position: relative;
+  z-index: 10001;
+  pointer-events: all;
+}
+
+/* Botão fechar dentro do menu */
+.menu-close-btn {
+  display: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  align-self: flex-end;
+  padding: 4px 8px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ================= MENU DESKTOP ================= */
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+/* ================= OVERLAY ================= */
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 999;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .menu-mobile-btn {
+    display: flex;
+    z-index: 10002;
+  }
+
+  .menu-close-btn {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -280px;
+    width: 260px;
+    height: 100%;
+    background-color: #490b23;
+    border-left: 4px solid #c5b99e;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 28px;
+    transition: right 0.3s ease;
+    z-index: 10003;
+  }
+
+  .menu.open {
+    right: 0;
+  }
+
+  .menu-link {
+    font-size: 18px;
+    padding: 8px 0;
+    display: block;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* ================= WHATSAPP ================= */
+
+.whatsapp-container {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 14px;
+  z-index: 9999;
+}
+
+.whatsapp-balao {
+  position: relative;
+  background-color: #490b23;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 13px;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-balao::after {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent #490b23 transparent transparent;
+}
+
+.whatsapp-fixo {
+  background-color: #25d366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  pointer-events: auto;
+}
+
+.whatsapp-fixo:hover {
+  transform: scale(1.1);
 }
