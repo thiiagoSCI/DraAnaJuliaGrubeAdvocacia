@@ -44,7 +44,7 @@ O site foi desenvolvido com foco em adaptação para diferentes dispositivos:
 
 ## 📸 Preview
 
-*(adicione prints aqui depois, se quiser)*
+![Home](./public/HomePage.png)
 
 ---
 
@@ -53,7 +53,3 @@ O site foi desenvolvido com foco em adaptação para diferentes dispositivos:
 Projeto desenvolvido para prática de desenvolvimento front-end e construção de portfólio profissional.
 
 ---
-
-## ⚖️ Observação
-
-Projeto fictício para fins de estudo e demonstração de habilidades.
