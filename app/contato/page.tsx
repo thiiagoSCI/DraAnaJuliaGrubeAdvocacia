@@ -2,10 +2,8 @@ import Link from "next/link";
 
 export default function Contato() {
     return (
-        <main style={{
-            maxWidth: "1200px",
-            margin: "0 auto",
-            padding: "80px 20px"
+        <section style={{
+            width: "100%"
         }}>
 
             {/* TÍTULO */}
@@ -27,17 +25,21 @@ export default function Contato() {
             </p>
 
             {/* CARDS DE CONTATO */}
-            <div style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: "30px",
-                marginBottom: "60px"
-            }}>
+            <div
+                className="contato-cards"
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "30px",
+                    marginBottom: "60px"
+                }}
+            >
 
                 {/* WHATSAPP */}
                 <a
                     href="https://wa.me/5548991410409"
                     target="_blank"
+                    className="contato-card"
                     style={{
                         display: "flex",
                         justifyContent: "space-between",
@@ -52,7 +54,7 @@ export default function Contato() {
                     }}
                 >
 
-                    <div>
+                    <div className="contato-card-content">
                         <h3 style={{
                             color: "#490b23",
                             fontSize: "30px",
@@ -69,7 +71,7 @@ export default function Contato() {
                         </p>
                     </div>
 
-                    <span style={{
+                    <span className="contato-card-action" style={{
                         color: "#c5b99e",
                         fontSize: "17px",
                         fontWeight: "500"
@@ -83,6 +85,7 @@ export default function Contato() {
                 <a
                     href="https://www.instagram.com/adv.anajuliagrube/"
                     target="_blank"
+                    className="contato-card"
                     style={{
                         display: "flex",
                         justifyContent: "space-between",
@@ -96,7 +99,7 @@ export default function Contato() {
                     }}
                 >
 
-                    <div>
+                    <div className="contato-card-content">
                         <h3 style={{
                             color: "#490b23",
                             fontSize: "30px",
@@ -113,7 +116,7 @@ export default function Contato() {
                         </p>
                     </div>
 
-                    <span style={{
+                    <span className="contato-card-action" style={{
                         color: "#c5b99e",
                         fontSize: "17px",
                         fontWeight: "500"
@@ -127,6 +130,7 @@ export default function Contato() {
                 <a
                     href="https://www.linkedin.com/in/anajuliagrube/"
                     target="_blank"
+                    className="contato-card"
                     style={{
                         display: "flex",
                         justifyContent: "space-between",
@@ -140,7 +144,7 @@ export default function Contato() {
                     }}
                 >
 
-                    <div>
+                    <div className="contato-card-content">
                         <h3 style={{
                             color: "#490b23",
                             fontSize: "30px",
@@ -157,7 +161,7 @@ export default function Contato() {
                         </p>
                     </div>
 
-                    <span style={{
+                    <span className="contato-card-action" style={{
                         color: "#c5b99e",
                         fontSize: "17px",
                         fontWeight: "500"
@@ -212,72 +216,6 @@ export default function Contato() {
 
             </div>
 
-            <div>
-
-                <form style={{
-                    display: "grid",
-                    gap: "20px"
-                }}>
-
-                    <div style={{
-                        display: "grid",
-                        gridTemplateColumns: "1fr 1fr",
-                        gap: "20px"
-                    }}>
-                        <input
-                            placeholder="Nome"
-                            style={{
-                                border: "1px solid #c5b99e", // borda dourada
-                                padding: "12px",
-                                borderRadius: "6px",
-                                outline: "none"
-                            }}
-                        />
-
-                        <input
-                            placeholder="E-mail"
-                            style={{
-                                border: "1px solid #c5b99e",
-                                padding: "12px",
-                                borderRadius: "6px",
-                                outline: "none"
-                            }}
-                        />
-                    </div>
-
-                    <div style={{
-                        display: "grid",
-                        gridTemplateColumns: "1fr 1fr",
-                        gap: "20px"
-                    }}>
-                    </div>
-
-                    <textarea
-                        placeholder="Mensagem"
-                        rows={5}
-                        style={{
-                            border: "1px solid #c5b99e",
-                            padding: "12px",
-                            borderRadius: "6px",
-                            outline: "none"
-                        }}
-                    />
-
-                    <button style={{
-                        backgroundColor: "#0f172a",
-                        color: "white",
-                        padding: "14px",
-                        borderRadius: "6px",
-                        border: "none",
-                        cursor: "pointer"
-                    }}>
-                        Enviar Mensagem
-                    </button>
-
-                </form>
-
-            </div>
-
-        </main>
+        </section>
     );
 }

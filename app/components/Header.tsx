@@ -46,7 +46,7 @@ export default function Header() {
             width={0}
             height={0}
             sizes="100vw"
-            style={{ width: "300px", height: "auto" }}
+            style={{ width: "clamp(150px, 55vw, 300px)", height: "auto" }}
             priority
           />
         </Link>

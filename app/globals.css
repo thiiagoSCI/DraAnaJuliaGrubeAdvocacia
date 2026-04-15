@@ -23,8 +23,10 @@ body {
 .menu-link {
   color: white;
   text-decoration: none;
-  position: relative; /* 🔥 ESSENCIAL */
-  display: inline-block; /* 🔥 garante alinhamento correto */
+  position: relative;
+  /* 🔥 ESSENCIAL */
+  display: inline-block;
+  /* 🔥 garante alinhamento correto */
 
   text-transform: uppercase;
   letter-spacing: 1.8px;
@@ -45,10 +47,12 @@ body {
   position: absolute;
 
   left: 0;
-  bottom: -4px; /* 🔥 controla a distância da linha */
+  bottom: -4px;
+  /* 🔥 controla a distância da linha */
 
   width: 0%;
-  height: 2px; /* um pouco mais grossa = mais elegante */
+  height: 2px;
+  /* um pouco mais grossa = mais elegante */
 
   background-color: #c5b99e;
 
@@ -122,6 +126,48 @@ body {
 /* ================= MOBILE ================= */
 
 @media (max-width: 768px) {
+  main {
+    padding: 48px 16px !important;
+  }
+
+  .home-hero {
+    padding: 48px 16px !important;
+  }
+
+  .home-hero h1 {
+    font-size: 30px !important;
+    line-height: 1.2;
+  }
+
+  .home-hero p {
+    font-size: 17px !important;
+    line-height: 1.5;
+  }
+
+  .sobre-topo {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    text-align: left;
+  }
+
+  .sobre-topo img {
+    max-width: 320px;
+  }
+
+  .contato-card {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 24px 20px !important;
+    gap: 16px;
+  }
+
+  .contato-card-content {
+    width: 100%;
+  }
+
+  .contato-card-action {
+    align-self: flex-start;
+  }
 
   .menu-mobile-btn {
     display: flex;
@@ -159,6 +205,31 @@ body {
     touch-action: manipulation;
     -webkit-tap-highlight-color: transparent;
   }
+}
+
+/* ================= CONTATO MOBILE ================= */
+
+.contato-cards h3 {
+  font-size: 22px !important;
+}
+
+.contato-cards p {
+  font-size: 16px !important;
+  line-height: 1.5;
+}
+
+.contato-card-action {
+  font-size: 15px !important;
+}
+
+/* TÍTULO E SUBTÍTULO */
+
+main h1 {
+  font-size: 28px !important;
+}
+
+main > p {
+  font-size: 18px !important;
 }
 
 /* ================= WHATSAPP ================= */

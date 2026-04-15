@@ -73,7 +73,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 alt="Ana Julia Grube"
                 width={200}
                 height={80}
-                style={{ height: "auto", filter: "brightness(0) invert(1)" }}
+                style={{ width: "200px", height: "auto", filter: "brightness(0) invert(1)" }}
               />
               <p style={{ fontSize: "12px", marginTop: "20px", opacity: 0.6 }}>
                 © 2026 Todos os direitos reservados.

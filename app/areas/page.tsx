@@ -19,21 +19,31 @@ export default function Areas() {
                     Direito Penal
                 </h2>
 
-                <p style={{ marginBottom: "15px" }}>
+                <p style={{ 
+                    marginBottom: "15px",
+                    fontSize: "17px",
+                 }}>
                     Atuação especializada e estratégica na área penal, com foco na tutela dos direitos e garantias fundamentais em todas as fases da persecução penal: da investigação à execução da pena.
                 </p>
 
-                <p style={{ marginBottom: "20px" }}>
+                <p style={{ 
+                    marginBottom: "20px",
+                    fontSize: "17px",
+                 }}>
                     A condução dos casos é pautada pelo rigor técnico, análise individualizada e atuação humanizada, assegurando a plena observância do devido processo legal.
                 </p>
 
                 <strong>Atividades:</strong>
-                <ul style={{ paddingLeft: "20px", marginTop: "10px" }}>
-                    <li>Defesa técnica em processos criminais</li>
-                    <li>Atuação em investigações e acompanhamento em delegacia</li>
-                    <li>Audiências de custódia</li>
-                    <li>Impetração de habeas corpus</li>
-                    <li>Atuação em execução penal</li>
+                <ul style={{ 
+                    paddingLeft: "0px", 
+                    marginTop: "10px",
+                    fontSize: "17px",
+                }}>
+                    <li>•Defesa técnica em processos criminais</li>
+                    <li>•Atuação em investigações e acompanhamento em delegacia</li>
+                    <li>•Audiências de custódia</li>
+                    <li>•Impetração de habeas corpus</li>
+                    <li>•Atuação em execução penal</li>
                 </ul>
             </section>
 
@@ -48,20 +58,30 @@ export default function Areas() {
                     Direito Trabalhista
                 </h2>
 
-                <p style={{ marginBottom: "15px" }}>
+                <p style={{ 
+                    marginBottom: "15px",
+                    fontSize: "17px",
+                 }}>
                     Atuação voltada à condução qualificada de demandas trabalhistas, com enfoque na proteção de direitos, prevenção de litígios e resolução eficiente de conflitos nas relações de trabalho.
                 </p>
 
-                <p style={{ marginBottom: "20px" }}>
+                <p style={{ 
+                    marginBottom: "15px",
+                    fontSize: "17px",
+                 }}>
                     A abordagem alia técnica jurídica, estratégia processual e sensibilidade às particularidades de cada caso, buscando soluções seguras e efetivas.
                 </p>
 
                 <strong>Atividades:</strong>
-                <ul style={{ paddingLeft: "20px", marginTop: "10px" }}>
-                    <li>Propositura e defesa em reclamações trabalhistas</li>
-                    <li>Assessoria em rescisões contratuais</li>
-                    <li>Análise de verbas rescisórias</li>
-                    <li>Negociação e formalização de acordos extrajudiciais</li>
+                <ul style={{ 
+                    paddingLeft: "0px", 
+                    marginTop: "10px", 
+                    fontSize: "17px", 
+                }}>
+                    <li>•Propositura e defesa em reclamações trabalhistas</li>
+                    <li>•Assessoria em rescisões contratuais</li>
+                    <li>•Análise de verbas rescisórias</li>
+                    <li>•Negociação e formalização de acordos extrajudiciais</li>
                 </ul>
             </section>
 
@@ -76,22 +96,32 @@ export default function Areas() {
                     Consultoria Jurídica e Mediação Extrajudicial
                 </h2>
 
-                <p style={{ marginBottom: "15px" }}>
+                <p style={{ 
+                    marginBottom: "15px",
+                    fontSize: "17px",
+                 }}>
                     Atuação consultiva orientada à prevenção de riscos e à construção de soluções jurídicas estratégicas, com ênfase na mediação extrajudicial como instrumento de resolução célere, eficaz e menos litigiosa de conflitos.
                 </p>
 
-                <p style={{ marginBottom: "20px" }}>
+                <p style={{ 
+                    marginBottom: "15px",
+                    fontSize: "17px",
+                 }}>
                     O trabalho é desenvolvido com base em uma escuta qualificada, abordagem técnica e compromisso com soluções consensuais.
                 </p>
 
                 <strong>Atividades:</strong>
-                <ul style={{ paddingLeft: "20px", marginTop: "10px" }}>
-                    <li>Elaboração, análise e revisão de contratos</li>
-                    <li>Emissão de pareceres jurídicos</li>
-                    <li>Orientação preventiva e estratégica</li>
-                    <li>Condução de mediação extrajudicial</li>
-                    <li>Negociação e formalização de acordos</li>
-                    <li>Apoio jurídico na tomada de decisões</li>
+                <ul style={{ 
+                    paddingLeft: "0px",
+                     marginTop: "10px",
+                     fontSize: "17px", 
+                 }}>
+                    <li>•Elaboração, análise e revisão de contratos</li>
+                    <li>•Emissão de pareceres jurídicos</li>
+                    <li>•Orientação preventiva e estratégica</li>
+                    <li>•Condução de mediação extrajudicial</li>
+                    <li>•Negociação e formalização de acordos</li>
+                    <li>•Apoio jurídico na tomada de decisões</li>
                 </ul>
             </section>
 

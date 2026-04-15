@@ -7,13 +7,16 @@ export default function Home() {
     <main>
 
       {/* ================= HERO ================= */}
-      <section style={{
-        textAlign: "center",
-        padding: "80px 20px"
-      }}>
-        <h1 style={{ 
-           fontSize: "40px",
-           marginBottom: "20px" 
+      <section
+        className="home-hero"
+        style={{
+          textAlign: "center",
+          padding: "80px 20px"
+        }}
+      >
+        <h1 style={{
+          fontSize: "40px",
+          marginBottom: "20px"
         }}>
 
           Advocacia com seriedade e discrição.
@@ -60,7 +63,7 @@ export default function Home() {
         {/* GRID */}
         <div style={{
           display: "grid",
-          gridTemplateColumns: "repeat(2, 1fr)", // 2 colunas fixas
+          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
           gap: "30px"
         }}>
 
