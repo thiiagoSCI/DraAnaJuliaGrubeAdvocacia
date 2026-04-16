@@ -40,7 +40,8 @@ export default function Sobre() {
           <h1 style={{
             fontSize: "28px",
             color: "#490b23",
-            marginBottom: "10px"
+            marginBottom: "10px",
+            fontWeight: "bold"
           }}>
             Ana Julia Grube - OAB/SC 78.503
           </h1>
@@ -82,15 +83,16 @@ export default function Sobre() {
           color: "#490b23",
           fontSize: "26px",     
           marginTop: "40px",    
-          marginBottom: "10px", 
+          marginBottom: "10px",
+          fontWeight: "bold" 
         }}>
           Formação Acadêmica
         </h2>
 
         <ul style={{ paddingLeft: "0px" }}>
-          <li>•Pós-graduanda em Direito Penal e Criminologia pela PUCRS</li>
-          <li>•Bacharela em Direito pelo Centro Universitário Unicesusc</li>
-          <li>•Tecnóloga em Segurança Pública pelo Centro Universitário Leonardo Da Vinci</li>
+          <li>• Pós-graduanda em Direito Penal e Criminologia pela PUCRS</li>
+          <li>• Bacharela em Direito pelo Centro Universitário Unicesusc</li>
+          <li>• Tecnóloga em Segurança Pública pelo Centro Universitário Leonardo Da Vinci</li>
         </ul>
 
         {/* COMPLEMENTAR */}
@@ -98,15 +100,16 @@ export default function Sobre() {
           color: "#490b23",
           fontSize: "26px",     
           marginTop: "40px",   
-          marginBottom: "10px", 
+          marginBottom: "10px",
+          fontWeight: "bold" 
         }}>
           Formação Complementar
         </h2>
 
         <ul style={{ paddingLeft: "0px" }}>
-          <li>•Curso de formação em Conciliação Judicial pela Academia Judicial de Santa Catarina (AJSC)</li>
-          <li>•Domínio em Espanhol pela Expanish School em Buenos Aires, Argentina</li>
-          <li>•Noções Basicas de Direito Administrativo pela Universidade Estadual do Maranhão (UEMA)</li>
+          <li>• Curso de formação em Conciliação Judicial pela Academia Judicial de Santa Catarina (AJSC)</li>
+          <li>• Domínio em Espanhol pela Expanish School em Buenos Aires, Argentina</li>
+          <li>• Noções Basicas de Direito Administrativo pela Universidade Estadual do Maranhão (UEMA)</li>
         </ul>
 
         {/* EXPERIÊNCIA */}
@@ -115,14 +118,15 @@ export default function Sobre() {
           fontSize: "26px",
           marginTop: "40px",
           marginBottom: "10px",
+          fontWeight: "bold"
         }}>
           Experiência Profissional
         </h2>
 
         <ul style={{ paddingLeft: "0px" }}>
-          <li>•Atuação no Presídio Feminino com suporte jurídico em execução penal</li>
-          <li>•Estágio em Direito Penal com atuação em processos criminais</li>
-          <li>•Participação em projetos de pesquisa e extensão na área penal</li>
+          <li>• Atuação no Presídio Feminino com suporte jurídico em execução penal</li>
+          <li>• Estágio em Direito Penal com atuação em processos criminais</li>
+          <li>• Participação em projetos de pesquisa e extensão na área penal</li>
         </ul>
 
         {/* PRÊMIOS */}
@@ -131,14 +135,15 @@ export default function Sobre() {
           fontSize: "26px",
           marginTop: "40px",
           marginBottom: "10px",
+          fontWeight: "bold"
         }}>
           Prêmios e Reconhecimentos
         </h2>
 
         <ul style={{ paddingLeft: "0px" }}>
-          <li>•Prêmio Dora Lucia de Lima Faye pela categoria Melhor Monografia - UNICESUSC</li>
-          <li>•Bolsa Desempenho Acadêmico 2024</li>
-          <li>•Bolsa Desempenho Acadêmico 2025</li>
+          <li>• Prêmio Dora Lucia de Lima Faye pela categoria Melhor Monografia - UNICESUSC</li>
+          <li>• Bolsa Desempenho Acadêmico 2024</li>
+          <li>• Bolsa Desempenho Acadêmico 2025</li>
         </ul>
 
       </div>
@@ -149,7 +154,8 @@ export default function Sobre() {
         <h2 style={{
           color: "#490b23",
           fontSize: "26px",
-          marginBottom: "20px"
+          marginBottom: "20px",
+          fontWeight: "bold"
         }}>
           Conecte-se
         </h2>
@@ -210,7 +216,8 @@ export default function Sobre() {
           color: "#490b23",
           fontSize: "26px",     
           marginTop: "40px",    
-          marginBottom: "10px", 
+          marginBottom: "10px",
+          fontWeight: "bold" 
         }}>
           Responsabilidade Social
         </h2>

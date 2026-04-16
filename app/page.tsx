@@ -136,7 +136,7 @@ export default function Home() {
             textDecoration: "none",
             fontSize: "14px"
           }}>
-            Fale com a advogada agora.
+            Fale com a advogada agora
           </Link>
         </div>
 

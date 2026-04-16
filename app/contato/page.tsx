@@ -11,7 +11,8 @@ export default function Contato() {
                 fontSize: "35px",
                 color: "#490b23",
                 marginBottom: "10px",
-                textAlign: "center"
+                textAlign: "center",
+                fontWeight: "bold",
             }}>
                 Contato
             </h1>

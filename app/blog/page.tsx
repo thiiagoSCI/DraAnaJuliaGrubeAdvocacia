@@ -13,7 +13,8 @@ export default function Blog() {
       <h1 style={{
         fontSize: "32px",
         color: "#490b23",
-        marginBottom: "40px"
+        marginBottom: "40px",
+        fontWeight: "bold"
       }}>
         Artigos e Publicações
       </h1>

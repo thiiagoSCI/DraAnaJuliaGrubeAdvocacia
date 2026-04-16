@@ -2,6 +2,8 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Header from "@/app/components/Header";
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react";
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -104,9 +106,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <img src="/whatsappICON.png" alt="WhatsApp" width={24} />
                 </a>
               </div>
+              <div>
+               <p style={{ 
+                fontSize: "12px",
+                marginTop: "25px",
+                opacity: 0.6,
+              }}>
+
+                Desenvolvido por Thiago Soldatelli Brito.
+
+                </p>
+
+              </div>  
+
             </div>
+
           </div>
+
         </footer>
+       
+       <Analytics />
 
       </body>
     </html>
