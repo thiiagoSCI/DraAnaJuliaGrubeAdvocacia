@@ -2,7 +2,7 @@
 
 Site institucional desenvolvido para escritório de advocacia, com foco em design moderno, responsividade e experiência do usuário.
 
-🔗 Acesse o site: https://dra-ana-julia-grube-advocacia.vercel.app/
+🔗 Acesse o site: https://www.advanajuliagrube.com.br/
 
 ---
 
