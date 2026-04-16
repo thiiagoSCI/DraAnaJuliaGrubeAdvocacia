@@ -5,6 +5,7 @@ export default function Sobre() {
     <main style={{
       maxWidth: "1200px",
       margin: "0 auto",
+      marginTop: "-80px",
       padding: "80px 20px"
     }}>
 
@@ -44,7 +45,9 @@ export default function Sobre() {
             Ana Julia Grube - OAB/SC 78.503
           </h1>
 
-          <p style={{ marginBottom: "10px" }}>
+          <p style={{ marginBottom: "10px",
+            textAlign: "justify",
+           }}>
             Advogada atuante na área de Direito Penal, Direito Trabalhista, Consultoria Jurídica e Mediação Extrajudicial, com foco na defesa
             dos direitos individuais e atuação estratégica adaptada ao caso concreto.
           </p>
@@ -58,7 +61,10 @@ export default function Sobre() {
 
       <div>
 
-        <p style={{ marginBottom: "20px" }}>
+        <p style={{ 
+          marginBottom: "20px",  
+          textAlign: "justify",
+        }}>
           Bacharela em Direito pelo Centro Universitário Unicesusc, também e Tecnóloga em Segurança Pública pelo Centro Universitário Leonardo da Vinci.
           Atualmente integra, como bolsista de Iniciação Científica, o Laboratório de Pesquisa Crítica em Regulação e Tecnologia (LabSensus) e integrou o Laboratório de Ciências Criminais (IBCCRIM).
           Ao longo de sua formação acadêmica, atuou como estagiária no Presídio Feminino de Florianópolis e concluiu o estágio obrigatório supervisionado em Direito Penal.
@@ -130,7 +136,7 @@ export default function Sobre() {
         </h2>
 
         <ul style={{ paddingLeft: "0px" }}>
-          <li>•Prêmio Dora Lucia de Lima Faye pela categoria Melhor Monografia – UNICESUSC</li>
+          <li>•Prêmio Dora Lucia de Lima Faye pela categoria Melhor Monografia - UNICESUSC</li>
           <li>•Bolsa Desempenho Acadêmico 2024</li>
           <li>•Bolsa Desempenho Acadêmico 2025</li>
         </ul>
@@ -196,6 +202,29 @@ export default function Sobre() {
 
         </div>
       </div>
+
+      <div style={{ marginTop: "50px" }}>
+
+        {/* PRÓ BONO */}
+        <h2 style={{
+          color: "#490b23",
+          fontSize: "26px",     
+          marginTop: "40px",    
+          marginBottom: "10px", 
+        }}>
+          Responsabilidade Social
+        </h2>
+
+        <ul style={{ paddingLeft: "0px",
+          textAlign: "justify",
+         }}>
+          <li>Desde o início de sua trajetória, a advogada Ana Júlia Grube preocupa-se com o aprimoramento do sistema de justiça.
+            Por essa razão, ela desenvolveu o programa de atuação pro bono, por meio do qual, anualmente, seleciona três casos de pessoas hipossuficientes acusadas em processos criminais para patrocinar gratuitamente a defesa.
+            Os interessados em ser defendidos por meio do programa de atuação pro bono devem enviar um email ao endereço eletrônico advanajuliagrube@gmail.com contendo: (a) qualificação completa; (b) relato detalhado do caso; e (c) cópia dos documentos do procedimento/processo.</li>
+        
+        </ul>
+
+        </div>
 
     </main>
   );

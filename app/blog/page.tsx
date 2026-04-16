@@ -5,6 +5,7 @@ export default function Blog() {
     <main style={{
       maxWidth: "1200px",
       margin: "0 auto",
+      marginTop: "-80px",
       padding: "80px 20px"
     }}>
 

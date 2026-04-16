@@ -5,6 +5,7 @@ export default function Areas() {
         <main style={{
             maxWidth: "1200px",
             margin: "0 auto",
+            marginTop: "-80px",
             padding: "80px 20px",
             lineHeight: "1.6"
         }}>
@@ -22,6 +23,7 @@ export default function Areas() {
                 <p style={{ 
                     marginBottom: "15px",
                     fontSize: "17px",
+                    textAlign: "justify",
                  }}>
                     Atuação especializada e estratégica na área penal, com foco na tutela dos direitos e garantias fundamentais em todas as fases da persecução penal: da investigação à execução da pena.
                 </p>
@@ -29,6 +31,7 @@ export default function Areas() {
                 <p style={{ 
                     marginBottom: "20px",
                     fontSize: "17px",
+                    textAlign: "justify",
                  }}>
                     A condução dos casos é pautada pelo rigor técnico, análise individualizada e atuação humanizada, assegurando a plena observância do devido processo legal.
                 </p>
@@ -61,6 +64,7 @@ export default function Areas() {
                 <p style={{ 
                     marginBottom: "15px",
                     fontSize: "17px",
+                    textAlign: "justify",
                  }}>
                     Atuação voltada à condução qualificada de demandas trabalhistas, com enfoque na proteção de direitos, prevenção de litígios e resolução eficiente de conflitos nas relações de trabalho.
                 </p>
@@ -68,6 +72,7 @@ export default function Areas() {
                 <p style={{ 
                     marginBottom: "15px",
                     fontSize: "17px",
+                    textAlign: "justify",
                  }}>
                     A abordagem alia técnica jurídica, estratégia processual e sensibilidade às particularidades de cada caso, buscando soluções seguras e efetivas.
                 </p>
@@ -99,6 +104,7 @@ export default function Areas() {
                 <p style={{ 
                     marginBottom: "15px",
                     fontSize: "17px",
+                    textAlign: "justify",
                  }}>
                     Atuação consultiva orientada à prevenção de riscos e à construção de soluções jurídicas estratégicas, com ênfase na mediação extrajudicial como instrumento de resolução célere, eficaz e menos litigiosa de conflitos.
                 </p>
@@ -106,6 +112,7 @@ export default function Areas() {
                 <p style={{ 
                     marginBottom: "15px",
                     fontSize: "17px",
+                    
                  }}>
                     O trabalho é desenvolvido com base em uma escuta qualificada, abordagem técnica e compromisso com soluções consensuais.
                 </p>
