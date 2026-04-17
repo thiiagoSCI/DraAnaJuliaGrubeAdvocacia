@@ -4,6 +4,32 @@ import Header from "@/app/components/Header";
 import Image from "next/image";
 import { Analytics } from "@vercel/analytics/react";
 
+export const metadata = {
+  title: "Ana Julia Grube | Advocacia Criminal e Trabalhista",
+  description: "Advogada especialista em Direito Penal e Flagrante em Santa Catarina. Atendimento 24 horas em Florianópolis.",
+
+  keywords: [
+    "advogada criminal",
+    "advodago criminal",
+    "advogada trabalhista",
+    "advogado trabalhista",
+    "advogado penal",
+    "advogada penal",
+    "advogada 24 horas",
+    "advogado 24 horas",
+    "defesa criminal",
+    "audiência de custódia",
+    "habeas corpus",
+    "flagrante",
+    "flagrante 24 horas",
+    "consultoria extrajudicial",
+    "consultoria jurídica",
+    "especialista em flagrante",
+    "advogado delegacia",
+    "advogado em florianopolis",
+    "advogada em florianopolis",
+  ],
+};
 
 const inter = Inter({
   subsets: ["latin"],
