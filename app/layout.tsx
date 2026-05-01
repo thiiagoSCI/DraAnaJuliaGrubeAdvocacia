@@ -5,8 +5,10 @@ import Image from "next/image";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-  title: "Ana Julia Grube | Advocacia Criminal e Trabalhista",
-  description: "Advogada especialista em Direito Penal e Flagrante em Santa Catarina. Atendimento 24 horas em Florianópolis.",
+  title: "Advogada Criminal em Florianópolis | Ana Julia Grube",
+  description:
+    "Advogada especialista em Direito Penal em Florianópolis. Atendimento 24 horas para prisão em flagrante, audiência de custódia e habeas corpus em Santa Catarina.",
+
 
   keywords: [
     "advogada criminal",

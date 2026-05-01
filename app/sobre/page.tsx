@@ -22,7 +22,7 @@ export default function Sobre() {
 
         {/* FOTO */}
         <Image
-          src="/anaplenario.jpg"
+          src="/AnaOAB2804.jpg"
           alt="Ana Julia Grube"
           width={300}
           height={300}
